@@ -21,6 +21,7 @@ public class Pyramid {
             for (int j =(i+1); j >= 1; j--) {
                 System.out.print(x);
                 x=x/2;
+
             }
             System.out.println();
             x=1;
