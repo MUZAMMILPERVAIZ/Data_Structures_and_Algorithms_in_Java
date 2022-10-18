@@ -1,20 +1,25 @@
 package Stack_using_Arrays;
 
-public class Stack {
-    int top=0;
-    int max=5;
-    int[] stack= new int[max];
+import java.lang.reflect.Type;
 
-    public void insert(int data){
+public class Stack<T> {
+    int top=0;
+    int max=15;
+
+    private int size=0;
+    T[] stack= (T[])new Object[max];
+
+    public void insert(T data){
         if(isFull()){
             return;
         }
         stack[top++] = data;
+        size++;
     }
 
-    public int remove(){
+    public T remove(){
         if(isEmpty()){
-            return Integer.MIN_VALUE;
+            System.out.println("No element found");
         }
 
       return stack[--top];
@@ -33,9 +38,12 @@ public class Stack {
         }
         return false;
     }
+    public int Size(){
+        return size;
+    }
 
     public static void main(String[] args) {
-        Stack stack1 = new Stack();
+        Stack<Integer> stack1 = new Stack<Integer>();
         stack1.insert(3);
         stack1.insert(4);
         stack1.insert(5);
