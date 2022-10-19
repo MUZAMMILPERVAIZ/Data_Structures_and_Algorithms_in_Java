@@ -4,7 +4,6 @@
     <list default="true" id="185b8e2e-e667-4644-a342-5164ace65470" name="Changes" comment="Commits new changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/InfixToPostfix/infixToPostfix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InfixToPostfix/infixToPostfix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Stack_using_Arrays/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack_using_Arrays/Stack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666067617343</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Commits new changes">
+      <created>1666170373097</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1666170373097</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -193,5 +199,16 @@
     <MESSAGE value="Programming fundamentals" />
     <MESSAGE value="Commits new changes" />
     <option name="LAST_COMMIT_MESSAGE" value="Commits new changes" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InfixToPostfix/infixToPostfix.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
