@@ -21,7 +21,7 @@ public class Stack<T> {
         if(isEmpty()){
             System.out.println("No element found");
         }
-
+      size--;
       return stack[--top];
 
     }

@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="185b8e2e-e667-4644-a342-5164ace65470" name="Changes" comment="Commits new changes">
-      <change afterPath="$PROJECT_DIR$/src/Stack_using_LinkedList/Stack_linkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InfixToPostfix/infixToPostfix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InfixToPostfix/infixToPostfix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Stack_using_Arrays/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack_using_Arrays/Stack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +41,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Stack">
+  <component name="RunManager" selected="Application.infixToPostfix">
     <configuration name="DoubleList_main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LinkedLists.DoubleList_main" />
       <module name="Data Structures and Algorithms" />
@@ -109,8 +109,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Stack" />
         <item itemvalue="Application.infixToPostfix" />
+        <item itemvalue="Application.Stack" />
         <item itemvalue="Application.DoubleList_main" />
         <item itemvalue="Application.LinkedListLoop" />
         <item itemvalue="Application.SelectionSort" />
@@ -168,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665989630813</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Commits new changes">
+      <created>1666067617343</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1666067617343</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -186,21 +193,5 @@
     <MESSAGE value="Programming fundamentals" />
     <MESSAGE value="Commits new changes" />
     <option name="LAST_COMMIT_MESSAGE" value="Commits new changes" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/InfixToPostfix/infixToPostfix.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/InfixToPostfix/infixToPostfix.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
