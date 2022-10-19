@@ -37,6 +37,7 @@ public class DoubleLinkedList {
         }
         newNode.next = node.next;
         newNode.previous = node;
+        node.next.previous = newNode;
         node.next = newNode;
         return TEMP;
 
