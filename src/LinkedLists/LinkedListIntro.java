@@ -3,7 +3,7 @@ package LinkedLists;
 public class LinkedListIntro {
 
     public static void main(String[] args) {
-        Node node = null;
+        SNode node = null;
         LinkedList linkedList = new LinkedList();
         node = linkedList.insert(12, node);
         node = linkedList.insert(13, node);

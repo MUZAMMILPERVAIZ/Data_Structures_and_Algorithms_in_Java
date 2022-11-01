@@ -5,4 +5,4 @@ Types of Data Structures in Java<br>
 ==> Stack.<br>
 ==> Queue.<br>
 ==> Binary Tree.<br>
-==> Binary Search Tree.<br>
+==> Binary Search Tree.<br> 

@@ -21,7 +21,7 @@ public class DoubleList_main {
         doubleLinkedList.printOnlyODD(node);
 
 
-        Node n = null;
+        SNode n = null;
         LinkedList linkedList = new LinkedList();
         n = linkedList.insert(12, n);
         n = linkedList.insert(13, n);

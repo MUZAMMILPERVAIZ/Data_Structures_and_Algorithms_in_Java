@@ -1,16 +1,16 @@
 package Stack_using_LinkedList;
 
 import LinkedLists.LinkedList;
-import LinkedLists.Node;
+import LinkedLists.SNode;
 
 public class Stack_linkedList {
-    Node FRONT=null;
+    SNode FRONT=null;
     LinkedList linkedList = new LinkedList();
     public void push(int data){
         if(FRONT==null){
             linkedList.getNewNode(data);
         }
-        Node temp = linkedList.getNewNode(data);
+        SNode temp = linkedList.getNewNode(data);
 
     }
 }

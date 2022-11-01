@@ -1,7 +1,7 @@
 package LinkedLists;
 
 public class LinkedList {
-    public Node insert(int data, Node node) {
+    public SNode insert(int data, SNode node) {
         if (node == null) {
             node = getNewNode(data);
         } else {
@@ -10,12 +10,12 @@ public class LinkedList {
         return node;
     }
 
-    public Node insertAtLast(int data, Node node) {
+    public SNode insertAtLast(int data, SNode node) {
         if (node == null) {
             return getNewNode(data);
         }
 
-        Node newNode = node;
+        SNode newNode = node;
         while (node.next != null) {
             node = node.next;
         }
@@ -24,19 +24,19 @@ public class LinkedList {
 
 
     }
-    public Node insertAtBeginning(int data, Node node) {
+    public SNode insertAtBeginning(int data, SNode node) {
         if (node == null) {
             return getNewNode(data);
         }
-        Node START = node;
-        Node newNode = getNewNode(data);
+        SNode START = node;
+        SNode newNode = getNewNode(data);
         newNode.next = START;
         START=newNode;
         return START;
 
 
     }
-    public Node insertAtPosition(int data, Node node, int pos) {
+    public SNode insertAtPosition(int data, SNode node, int pos) {
         if(pos<1){
             System.out.println("List is empty");
             return node;
@@ -50,8 +50,8 @@ public class LinkedList {
         }
 
         int j = 1;
-        Node TEMP = node;
-        Node newNode = getNewNode(data);
+        SNode TEMP = node;
+        SNode newNode = getNewNode(data);
         while (j<pos-1){
             node= node.next;
             if(node.next== null){
@@ -66,15 +66,15 @@ public class LinkedList {
         node.next =newNode;
         return TEMP;
     }
-    public Node getNewNode(int data) {
-        Node node = new Node();
+    public SNode getNewNode(int data) {
+        SNode node = new SNode();
         node.data = data;
         node.next = null;
         return node;
 
     }
 
-    public void Print(Node node) {
+    public void Print(SNode node) {
         if (node == null) {
             return;
         } else {
@@ -83,7 +83,7 @@ public class LinkedList {
         }
     }
 
-    public void PrintUsingLoop(Node node) {
+    public void PrintUsingLoop(SNode node) {
         if (node == null) {
             return;
         }
@@ -93,7 +93,7 @@ public class LinkedList {
         }
     }
 
-    public void printOddData(Node node) {
+    public void printOddData(SNode node) {
         if (node == null) {
             return;
         } else {
@@ -107,12 +107,12 @@ public class LinkedList {
         }
     }
     //TODO Question 3
-    public Node convertToCircular(Node node){
+    public SNode convertToCircular(SNode node){
         if (node == null) {
             System.out.println("empty list");;
         }
         System.out.println("[Converting to circular Linked list......]");
-        Node start = node;
+        SNode start = node;
         while (node.next!=null){
             node=node.next;
         }
@@ -120,7 +120,7 @@ public class LinkedList {
         return start;
     }
 
-    public void SearhCircular(Node node, int data){
+    public void SearhCircular(SNode node, int data){
         int count=0;
         while (node!=null){
             count++;

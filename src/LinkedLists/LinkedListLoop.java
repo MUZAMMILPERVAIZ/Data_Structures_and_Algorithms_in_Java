@@ -2,7 +2,7 @@ package LinkedLists;
 
 public class LinkedListLoop {
     public static void main(String[] args) {
-        Node node = null;
+        SNode node = null;
         LinkedList linkedList = new LinkedList();
         node= linkedList.insertAtLast(12,node);
         node= linkedList.insertAtLast(13,node);

@@ -2,7 +2,7 @@ package LinkedLists;
 
 public class printOddNumberFromLinkedlist {
     public static void main(String[] args) {
-        Node node = null;
+        SNode node = null;
         LinkedList linkedList = new LinkedList();
         node = linkedList.insert(17, node);
         node = linkedList.insert(18, node);
