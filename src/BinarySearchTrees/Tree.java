@@ -3,24 +3,20 @@ package BinarySearchTrees;
 import BinarySearchTrees.TreeNode;
 
 public class Tree {
-    public  TreeNode insert(int data, TreeNode node){
-        if(node==null){
+    public TreeNode insert(int data, TreeNode node) {
+        if (node == null) {
             return getNewNode(data);
-        }
-        else {
-            if (data<node.data){
-                if(node.Left == null){
+        } else {
+            if (data < node.data) {
+                if (node.Left == null) {
                     node.Left = getNewNode(data);
-                }
-                else {
+                } else {
                     insert(data, node.Left);
                 }
-            }
-            else if(data> node.data){
-                if(node.Right == null){
+            } else if (data > node.data) {
+                if (node.Right == null) {
                     node.Right = getNewNode(data);
-                }
-                else {
+                } else {
                     insert(data, node.Right);
                 }
             }
@@ -31,34 +27,56 @@ public class Tree {
 
     private TreeNode getNewNode(int data) {
         TreeNode node = new TreeNode();
-        node.data= data;
+        node.data = data;
         node.Left = null;
         node.Right = null;
         return node;
     }
 
-    public void inOrder(TreeNode node){
-        if(node==null){
+    public void inOrder(TreeNode node) {
+        if (node == null) {
             return;
         }
         inOrder(node.Left);
-        System.out.println("Data: "+node.data);
+        System.out.println("Data: " + node.data);
         inOrder(node.Right);
     }
-    public void preOrder(TreeNode node){
-        if(node==null){
+
+    public void preOrder(TreeNode node) {
+        if (node == null) {
             return;
         }
-        System.out.println("Data: "+node.data);
+        System.out.println("Data: " + node.data);
         inOrder(node.Left);
         inOrder(node.Right);
     }
-    public void postOrder(TreeNode node){
-        if(node==null){
+
+    public void postOrder(TreeNode node) {
+        if (node == null) {
             return;
         }
         inOrder(node.Left);
         inOrder(node.Right);
-        System.out.println("Data: "+node.data);
+        System.out.println("Data: " + node.data);
     }
+
+    public void search(int data, TreeNode node) {
+        while (node != null) {
+            if (data == node.data) {
+                System.out.println("Data Found :" + node.data);
+                break;
+            } else {
+                if (data < node.data) {
+                    System.out.println(node.data);
+                    node = node.Left;
+
+                } else if (data > node.data) {
+                    System.out.println(node.data);
+                    node = node.Right;
+                }
+
+            }
+        }
+    }
+
 }

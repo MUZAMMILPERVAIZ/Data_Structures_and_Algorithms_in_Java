@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="185b8e2e-e667-4644-a342-5164ace65470" name="Changes" comment="Commits new changes">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedLists/DoubleList_main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedLists/DoubleList_main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedLists/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedLists/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedLists/LinkedListIntro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedLists/LinkedListIntro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedLists/LinkedListLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedLists/LinkedListLoop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedLists/Node.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedLists/printOddNumberFromLinkedlist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedLists/printOddNumberFromLinkedlist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Stack_using_LinkedList/Stack_linkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack_using_LinkedList/Stack_linkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinarySearchTrees/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearchTrees/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinarySearchTrees/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearchTrees/Tree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666172595142</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Commits new changes">
+      <created>1667292889129</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1667292889129</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -231,17 +232,26 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/BinarySearchTrees/Main.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="2" />
+          <line>23</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/BinarySearchTrees/Tree.java</url>
-          <line>39</line>
+          <line>35</line>
           <properties class="BinarySearchTrees.Tree" method="inOrder">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/BinarySearchTrees/Tree.java</url>
+          <line>62</line>
+          <properties class="BinarySearchTrees.Tree" method="search">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
