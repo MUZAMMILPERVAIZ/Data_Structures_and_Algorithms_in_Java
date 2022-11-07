@@ -1,6 +1,6 @@
 package LinkedLists;
 
 public class SNode {
-    int data;
-    SNode next;
+    public int data;
+    public SNode next;
 }

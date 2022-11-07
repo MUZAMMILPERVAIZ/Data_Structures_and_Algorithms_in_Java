@@ -47,16 +47,16 @@ public class Tree {
             return;
         }
         System.out.println("Data: " + node.data);
-        inOrder(node.Left);
-        inOrder(node.Right);
+        preOrder(node.Left);
+        preOrder(node.Right);
     }
 
     public void postOrder(TreeNode node) {
         if (node == null) {
             return;
         }
-        inOrder(node.Left);
-        inOrder(node.Right);
+        postOrder(node.Left);
+        postOrder(node.Right);
         System.out.println("Data: " + node.data);
     }
 
@@ -79,4 +79,23 @@ public class Tree {
         }
     }
 
+
+    public TreeNode deleteLeafNode(int data, TreeNode node) {
+        if (node == null) {
+            return node;
+        } else if (data== node.data) {
+            node=null;
+        } else {
+            if (data < node.data) {
+               node.Left = deleteLeafNode(data,node.Left);
+            } else if (data > node.data) {
+                node.Right = deleteLeafNode(data,node.Right);
+            }
+
+        }
+        return node;
+    }
 }
+
+
+

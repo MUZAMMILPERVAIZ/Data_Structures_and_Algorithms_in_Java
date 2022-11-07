@@ -66,6 +66,18 @@ public class LinkedList {
         node.next =newNode;
         return TEMP;
     }
+    public SNode deleteFromBeginning(SNode node){
+        return node.next;
+    }
+    public SNode deleteFromLast(SNode node){
+        SNode start = node;
+        while (node.next!=null){
+            node= node.next;
+        }
+        node = null;
+        return start;
+    }
+
     public SNode getNewNode(int data) {
         SNode node = new SNode();
         node.data = data;

@@ -4,9 +4,22 @@ import Stack_using_Arrays.Stack;
 
 public class infixToPostfix {
     public static void main(String[] args) {
-        String expression = "(A*B/C)";
+        String expression = "((A+B)/((7-9)*(A-6)))";
+        System.out.println("InfixToPostfix");
+
         System.out.println(infixToPostfix(expression));
-        String expression1 = "((A+B)/((7-9)*(A-6)))";
+        String reversedStr = "";
+        for (int i = 0; i < expression.length(); i++) {
+            reversedStr = expression.charAt(i) + reversedStr;
+        }
+        String result =  infixToPostfix(expression);
+        String result1 ="";
+        for (int i = 0; i < result.length(); i++) {
+            result1 = result.charAt(i) + result1;
+        }
+        System.out.println("InfixToPrefix \n "+ result1);
+
+        String expression1 = "((A+B)/7)";
         System.out.println(infixToPostfix(expression1));
     }
 

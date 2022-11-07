@@ -20,16 +20,24 @@ public class Main {
         root=tree.insert(42,root);
         root=tree.insert(62,root);
         root=tree.insert(64,root);
+
         //TODO: ------------------TASK 2---------------------
-        tree.search(70, root);
+        System.out.println("Searching 55 in Binary Search Tree");
+        tree.search(55, root);
 
         //TODO: ------------------TASK 3---------------------
-//        System.out.println("INORDER-------------------");
-//        tree.inOrder(root);
-//        System.out.println("PREORDER-------------------");
-//        tree.preOrder(root);
-//        System.out.println("POSTORDER-------------------");
-//        tree.postOrder(root);
+        System.out.println("--------------------INORDER-------------------");
+        tree.inOrder(root);
+        System.out.println("--------------------PREORDER-------------------");
+        tree.preOrder(root);
+        System.out.println("--------------------POSTORDER-------------------");
+        tree.postOrder(root);
+
+        //TODO: ------------------TASK 4---------------------
+        System.out.println();
+        root=tree.deleteLeafNode(64,root);
+        tree.postOrder(root);
+
 
 
 
