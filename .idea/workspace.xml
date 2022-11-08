@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="185b8e2e-e667-4644-a342-5164ace65470" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Queue_using_Arrays/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Queue_using_Arrays/Queue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,19 +37,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ToolWindowRun.ShowToolbar": "false",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
-  <component name="RunManager" selected="Application.Queue">
+}]]></component>
+  <component name="RunManager" selected="Application.Priority_Queue.Queue">
+    <configuration name="AVLTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AVL_tree.AVLTree" />
+      <module name="Data Structures and Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AVL_tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Circular_DoublyLinkedList.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Circular_DoublyLinkedList.Main" />
       <module name="Data Structures and Algorithms" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Circular_DoublyLinkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Priority_Queue.Queue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Priority_Queue.Queue" />
+      <module name="Data Structures and Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Priority_Queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,19 +97,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Queue_using_LinkedList.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Queue_using_LinkedList.Main" />
-      <module name="Data Structures and Algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Queue_using_LinkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Stack_linkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Stack_using_LinkedList.Stack_linkedList" />
       <module name="Data Structures and Algorithms" />
@@ -95,26 +110,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="infixToPostfix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InfixToPostfix.infixToPostfix" />
-      <module name="Data Structures and Algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="InfixToPostfix.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Priority_Queue.Queue" />
+        <item itemvalue="Application.AVLTree" />
         <item itemvalue="Application.Queue" />
         <item itemvalue="Application.Circular_DoublyLinkedList.Main" />
         <item itemvalue="Application.Stack_linkedList" />
-        <item itemvalue="Application.Queue_using_LinkedList.Main" />
-        <item itemvalue="Application.infixToPostfix" />
       </list>
     </recent_temporary>
   </component>
@@ -218,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667836631705</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Commits new changes">
+      <created>1667886614221</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1667886614221</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -236,5 +245,25 @@
     <MESSAGE value="Programming fundamentals" />
     <MESSAGE value="Commits new changes" />
     <option name="LAST_COMMIT_MESSAGE" value="Commits new changes" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Priority_Queue/Queue.java</url>
+          <line>154</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Priority_Queue/Queue.java</url>
+          <line>120</line>
+          <properties class="Priority_Queue.Queue" method="Print">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
