@@ -42,7 +42,7 @@ class PGraph {
             int y = 0; // col number
 
             for (int i = 0; i < V; i++) {
-                if (selected[i] == true) {
+                if (selected[i]) {
                     for (int j = 0; j < V; j++) {
                         // not in selected and there is an edge
                         if (!selected[j] && G[i][j] != 0) {
@@ -64,7 +64,7 @@ class PGraph {
     public static void main(String[] args) {
         PGraph g = new PGraph();
 
-        // number of vertices in grapj
+        // number of vertices in graph
         int V = 5;
 
         // create a 2d array of size 5x5
