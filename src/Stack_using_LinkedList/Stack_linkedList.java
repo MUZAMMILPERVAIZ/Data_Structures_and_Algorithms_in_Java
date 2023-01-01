@@ -14,6 +14,7 @@ public class Stack_linkedList {
         return linkedList.deleteFromBeginning(node);
     }
 
+
     public void Print(SNode node) {
         linkedList.Print(node);
     }

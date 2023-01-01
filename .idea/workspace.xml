@@ -1,9 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="185b8e2e-e667-4644-a342-5164ace65470" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/HASHING/hashing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SearchingAlgorithms/binaryAndLinearSearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Queue_using_Arrays/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Queue_using_Arrays/Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinarySearchTrees/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearchTrees/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinarySearchTrees/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearchTrees/Tree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Circular_DoublyLinkedList/CircularLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Circular_DoublyLinkedList/CircularLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Circular_DoublyLinkedList/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Circular_DoublyLinkedList/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedLists/DoubleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedLists/DoubleLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedLists/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedLists/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedLists/NODE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedLists/NODE.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SearchingAlgorithms/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SortingAlgorithms/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SearchingAlgorithms/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SortingAlgorithms/SelectionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stack_using_LinkedList/Stack_linkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack_using_LinkedList/Stack_linkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,18 +54,27 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
     "ToolWindowRun.ShowToolbar": "false",
+    "WebServerToolWindowFactoryState": "false",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "last_opened_file_path": "D:/IdeaProjects/Data Structures and Algorithms/src/BFS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Priority_Queue.Queue">
-    <configuration name="AVLTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AVL_tree.AVLTree" />
+  <component name="RunManager" selected="Application.Heap.Main">
+    <configuration name="DFS.Graph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DFS.Graph" />
       <module name="Data Structures and Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AVL_tree.*" />
+          <option name="PATTERN" value="DFS.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -58,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Circular_DoublyLinkedList.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Circular_DoublyLinkedList.Main" />
+    <configuration name="Graph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BFS.Graph" />
       <module name="Data Structures and Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Circular_DoublyLinkedList.*" />
+          <option name="PATTERN" value="BFS.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Priority_Queue.Queue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Priority_Queue.Queue" />
+    <configuration name="Heap.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Heap.Main" />
       <module name="Data Structures and Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Priority_Queue.*" />
+          <option name="PATTERN" value="Heap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Queue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Queue_using_Arrays.Queue" />
+    <configuration name="bfs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BFS.bfs" />
       <module name="Data Structures and Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Queue_using_Arrays.*" />
+          <option name="PATTERN" value="BFS.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Stack_linkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Stack_using_LinkedList.Stack_linkedList" />
+    <configuration name="dfs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DFS.dfs" />
       <module name="Data Structures and Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Stack_using_LinkedList.*" />
+          <option name="PATTERN" value="DFS.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Priority_Queue.Queue" />
-        <item itemvalue="Application.AVLTree" />
-        <item itemvalue="Application.Queue" />
-        <item itemvalue="Application.Circular_DoublyLinkedList.Main" />
-        <item itemvalue="Application.Stack_linkedList" />
+        <item itemvalue="Application.Heap.Main" />
+        <item itemvalue="Application.dfs" />
+        <item itemvalue="Application.bfs" />
+        <item itemvalue="Application.DFS.Graph" />
+        <item itemvalue="Application.Graph" />
       </list>
     </recent_temporary>
   </component>
@@ -128,6 +152,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663572358284</updated>
+      <workItem from="1672038066531" duration="3665000" />
+      <workItem from="1672151511235" duration="1886000" />
+      <workItem from="1672547122773" duration="7560000" />
     </task>
     <task id="LOCAL-00001" summary="Programming fundamentals">
       <created>1664113981357</created>
@@ -227,8 +254,18 @@
       <option name="project" value="LOCAL" />
       <updated>1667886614221</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Commits new changes">
+      <created>1667921751249</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1667921751249</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -254,6 +291,86 @@
           <line>154</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinkedLists/LinkedList.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BFS/bfs.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BFS/bfs.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BFS/bfs.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BFS/bfs.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Dijkstra_Algo/Dijkstra.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Dijkstra_Algo/Dijkstra.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SearchingAlgorithms/binaryAndLinearSearch.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SearchingAlgorithms/binaryAndLinearSearch.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SearchingAlgorithms/binaryAndLinearSearch.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DFS/dfs.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DFS/dfs.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DFS/dfs.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DFS/dfs.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DFS/dfs.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BFS/bfs.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Priority_Queue/Queue.java</url>
           <line>120</line>
@@ -263,7 +380,52 @@
           </properties>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/BFS/bfs.java</url>
+          <line>34</line>
+          <properties class="BFS.bfs" method="BFS">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Dijkstra_Algo/Dijkstra.java</url>
+          <line>37</line>
+          <properties class="Dijkstra_Algo.Dijkstra" method="findMinDistance">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/SearchingAlgorithms/binaryAndLinearSearch.java</url>
+          <line>26</line>
+          <properties class="SearchingAlgorithms.binaryAndLinearSearch" method="binarySearch">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/DFS/dfs.java</url>
+          <line>33</line>
+          <properties class="DFS.dfs" method="BFS">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Data_Structures_and_Algorithms$Dijkstra.ic" NAME="Dijkstra Coverage Results" MODIFIED="1671533455022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Dijkstra_Algo.*</FILTER>
+    </SUITE>
   </component>
 </project>

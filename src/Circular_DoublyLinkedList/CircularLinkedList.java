@@ -1,5 +1,7 @@
 package Circular_DoublyLinkedList;
 
+import LinkedLists.SNode;
+
 public class CircularLinkedList {
     public NODE insertAtBeginning(int data, NODE node) {
         if (node == null) {
@@ -12,19 +14,21 @@ public class CircularLinkedList {
         START = newNode;
         return START;
     }
- public NODE insertAtEnd(int data, NODE node) {
+
+    public NODE insertAtEnd(int data, NODE node) {
         if (node == null) {
             return getNewNode(data);
         }
         NODE START = node;
         NODE newNode = getNewNode(data);
-        while(node.next!=null){
+        while (node.next != null) {
             node = node.next;
         }
         node.next = newNode;
         newNode.previous = node;
         return START;
     }
+
     public NODE insertAtPosition(int data, NODE node, int pos) {
         if (pos < 1) {
             System.out.println("List is empty");
@@ -64,34 +68,34 @@ public class CircularLinkedList {
     }
 
     public void Print(NODE node) {
-        while(node!=null){
-                        System.out.println( "Previous:  " + node.previous +"  ------ "+"DATA: " + node.data + " ---- " + "Next: " + node.next );
+        while (node != null) {
+            System.out.println("Previous:  " + node.previous + "  ------ " + "DATA: " + node.data + " ---- " + "Next: " + node.next);
 
-            node=node.next;
+            node = node.next;
         }
-  
+
     }
- 
+
     /*
 ---------------------------------------------------------------------------------------------
      Circular linked list codes
     */
-    public NODE convertToCircular(NODE node){
+    public NODE convertToCircular(NODE node) {
         System.out.println("Converting to circular.........");
         if (node == null) {
             return node;
         }
         NODE START = node;
-        
-        while(node.next!=null){
+
+        while (node.next != null) {
             node = node.next;
         }
         node.next = START;
         START.previous = node;
         return START;
-        
+
     }
-    
+
     public NODE insertAtBeginningOfCircular(int data, NODE node) {
         if (node == null) {
             return getNewNode(data);
@@ -99,30 +103,30 @@ public class CircularLinkedList {
         NODE START = node;
         NODE newNode = getNewNode(data);
         newNode.previous = START.previous;
-        newNode.previous.next=newNode;
+        newNode.previous.next = newNode;
         newNode.next = START;
         START.previous = newNode;
- 
+
         START = newNode;
         return START;
     }
-    
-   
-      public NODE insertAtEndOfCircular(int data, NODE node) {
+
+
+    public NODE insertAtEndOfCircular(int data, NODE node) {
         if (node == null) {
             return getNewNode(data);
         }
         NODE START = node;
         NODE newNode = getNewNode(data);
         newNode.previous = START.previous;
-        newNode.previous.next=newNode;
+        newNode.previous.next = newNode;
         newNode.next = START;
         START.previous = newNode;
- 
-        
+
+
         return START;
     }
-    
+
     public NODE insertAtPositionCircular(int data, NODE node, int pos) {
         if (pos < 1) {
             System.out.println("wrong pos");
@@ -147,70 +151,77 @@ public class CircularLinkedList {
         return START;
 
     }
-     public NODE DeleteFromEndOfCircular(  NODE node) {
+
+    public NODE DeleteFromEndOfCircular(NODE node) {
         if (node == null) {
             return node;
         }
         NODE START = node;
-        NODE last  =START.previous;
+        NODE last = START.previous;
 
-        START.previous.previous.next=START;
+        START.previous.previous.next = START;
         START.previous = last.previous;
-         
+
         return START;
     }
-    public NODE DeleteFromBeginningOfCircular(  NODE node) {
+
+    public NODE DeleteFromBeginningOfCircular(NODE node) {
         if (node == null) {
             return node;
         }
         NODE START = node;
-        NODE last  =START.previous;
+        NODE last = START.previous;
 
-        START=START.next;
+        START = START.next;
         START.previous = last;
         last.next = START;
-         
+
         return START;
     }
-        public NODE DeleteCircular(NODE node) {
-        node=null;
-       
+
+    public NODE DeleteCircular(NODE node) {
+        node = null;
+
         return node;
     }
-//     
-//        public NODE DeleteAtPositionCircular( NODE node, int pos) {
-//        if (pos < 1) {
-//            System.out.println("wrong pos");
-//            return node;
-//        } else if ((node == null) && (pos > 1)) {
-//            System.out.println("List is empty");
-//        }
-//        int j = 1;
-//        NODE START = node;
-//        while (j < pos - 1) {
-//            node = node.next;
-//            j++;
-//
-//        }
-//       node.next = node.previous.next;
+
+    public NODE DeleteAtPositionCircular(NODE node, int pos) {
+        if (pos < 1) {
+            System.out.println("wrong pos");
+            return node;
+        } else if ((node == null) && (pos > 1)) {
+            System.out.println("List is empty");
+        }
+        int j = 1;
+        NODE START = node;
+        while (j < pos - 1) {
+            node = node.next;
+            j++;
+
+        }
+        NODE last = node.next;
+        node.next = node.next.next;
+        last = null;
+
+//        node.next = node.previous.next;
 //        node.previous = node.previous.next;
-//         last=node.previous;
-//        last.next= ;
-//        return START;
-//
-//    }
-     public void PrintCircular(NODE node) {
-         NODE START = node;
-        while(node!=null){
-                        System.out.println( "Previous:  " + node.previous +"  ------ "+"DATA: " + node.data + " ---- " + "Next: " + node.next );
-            node=node.next;
-            if(node==START){
+//        last = node.previous;
+//        last.next =;
+        return START;
+
+    }
+
+    public void PrintCircular(NODE node) {
+        NODE START = node;
+        while (node != null) {
+            System.out.println("Previous:  " + node.previous + "  ------ " + "DATA: " + node.data + " ---- " + "Next: " + node.next);
+            node = node.next;
+            if (node == START) {
                 break;
             }
         }
-  
+
     }
-    
 
 
 }

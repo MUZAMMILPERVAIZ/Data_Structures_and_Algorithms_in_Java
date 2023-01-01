@@ -7,8 +7,8 @@ public class DoubleLinkedList {
         }
         NODE START = node;
         NODE newNode = getNewNode(data);
-        newNode.next = node;
-        node.previous = newNode;
+        newNode.next = START;
+        START.previous = newNode;
         START = newNode;
         return START;
     }
@@ -20,6 +20,7 @@ public class DoubleLinkedList {
         } else if ((node == null) && (pos == 1)) {
 
             return insertAtBeginning(data, node);
+
         } else if ((node == null) && (pos > 1)) {
             System.out.println("List is empty");
         }

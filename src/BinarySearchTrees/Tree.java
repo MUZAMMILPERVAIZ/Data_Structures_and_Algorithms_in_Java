@@ -41,6 +41,12 @@ public class Tree {
         System.out.println("Data: " + node.data);
         inOrder(node.Right);
     }
+    public int sumOfNodes(TreeNode node) {
+        if (node == null) {
+            return 0;
+        }
+        return node.data + sumOfNodes(node.Left) + sumOfNodes(node.Right);
+    }
 
     public void preOrder(TreeNode node) {
         if (node == null) {

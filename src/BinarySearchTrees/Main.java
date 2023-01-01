@@ -5,6 +5,7 @@ public class Main {
         Tree tree = new Tree();
         TreeNode root = null;
 
+
         //TODO:------------------TASK 1-----------------
         root=tree.insert(60,root);
         root=tree.insert(41,root);

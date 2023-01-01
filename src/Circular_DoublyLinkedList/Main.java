@@ -3,6 +3,10 @@ package Circular_DoublyLinkedList;
 public class Main {
 
     public static void main(String[] args) {
+        System.out.println(2%8);
+        System.out.println(5%8);
+        System.out.println(8%8);
+
     NODE node = null;
         CircularLinkedList doubleLinkedList = new CircularLinkedList();
         node = doubleLinkedList.insertAtBeginning(12, node);
@@ -38,6 +42,13 @@ public class Main {
         System.out.println("-----------delete from begining -----------------");
         doubleLinkedList.PrintCircular(node); 
         System.out.println("");
+
+        System.out.println("-----------delete from specific pos -----------------");
+        node= doubleLinkedList.DeleteAtPositionCircular(node,3);
+        System.out.println("");
+        doubleLinkedList.PrintCircular(node);
+
+
         node = doubleLinkedList.DeleteCircular(node);
         System.out.println("--------------Full deleted circuler list is :");
         doubleLinkedList.PrintCircular(node); 

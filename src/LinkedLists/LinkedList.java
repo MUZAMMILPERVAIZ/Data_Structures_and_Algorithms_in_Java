@@ -33,8 +33,6 @@ public class LinkedList {
         newNode.next = START;
         START=newNode;
         return START;
-
-
     }
     public SNode insertAtPosition(int data, SNode node, int pos) {
         if(pos<1){
@@ -59,7 +57,6 @@ public class LinkedList {
                 break;
             }
             j++;
-
         }
 
         newNode.next = node.next;

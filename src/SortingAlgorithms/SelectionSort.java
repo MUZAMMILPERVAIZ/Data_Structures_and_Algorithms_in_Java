@@ -1,4 +1,4 @@
-package SearchingAlgorithms;
+package SortingAlgorithms;
 
 public class SelectionSort {
     void sort(int arr[])
