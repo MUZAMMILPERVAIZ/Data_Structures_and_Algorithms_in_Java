@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="185b8e2e-e667-4644-a342-5164ace65470" name="Changes" comment="Commits new changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Kruskals_Algorithm/kruskalAlgo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kruskals_Algorithm/kruskalAlgo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Prims_Algo/PGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Prims_Algo/PGraph.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,6 +54,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -61,13 +62,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Dijkstra">
-    <configuration name="DFS.Graph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DFS.Graph" />
+  <component name="RunManager" selected="Application.GFG">
+    <configuration name="AVLTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AVL_tree.AVLTree" />
       <module name="Data Structures and Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DFS.*" />
+          <option name="PATTERN" value="AVL_tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Graph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BFS.Graph" />
+    <configuration name="GFG" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Dijkstra_Algo.GFG" />
       <module name="Data Structures and Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BFS.*" />
+          <option name="PATTERN" value="Dijkstra_Algo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Heap.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Heap.Main" />
+    <configuration name="Kruskals_Algorithm.Graph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Kruskals_Algorithm.Graph" />
       <module name="Data Structures and Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Heap.*" />
+          <option name="PATTERN" value="Kruskals_Algorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dfs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DFS.dfs" />
+    <configuration name="PGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Prims_Algo.PGraph" />
       <module name="Data Structures and Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DFS.*" />
+          <option name="PATTERN" value="Prims_Algo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GFG" />
         <item itemvalue="Application.Dijkstra" />
-        <item itemvalue="Application.Heap.Main" />
-        <item itemvalue="Application.DFS.Graph" />
-        <item itemvalue="Application.dfs" />
-        <item itemvalue="Application.Graph" />
+        <item itemvalue="Application.PGraph" />
+        <item itemvalue="Application.AVLTree" />
+        <item itemvalue="Application.Kruskals_Algorithm.Graph" />
       </list>
     </recent_temporary>
   </component>
@@ -151,7 +152,7 @@
       <workItem from="1672038066531" duration="3665000" />
       <workItem from="1672151511235" duration="1886000" />
       <workItem from="1672547122773" duration="8395000" />
-      <workItem from="1672578031794" duration="3818000" />
+      <workItem from="1672578031794" duration="5594000" />
     </task>
     <task id="LOCAL-00001" summary="Programming fundamentals">
       <created>1664113981357</created>
@@ -265,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672559958329</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Commits new changes">
+      <created>1672585603391</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1672585603391</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
