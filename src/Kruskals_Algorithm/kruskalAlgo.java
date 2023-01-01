@@ -5,25 +5,19 @@ package Kruskals_Algorithm;
 import java.util.Arrays;
 
 class Graph {
-    class Edge implements Comparable<Edge> {
+    static class Edge implements Comparable<Edge> {
         int src, dest, weight;
 
         public int compareTo(Edge compareEdge) {
             return this.weight - compareEdge.weight;
         }
     }
-
-    ;
-
     // Union
-    class subset {
+    static class subset {
         int parent, rank;
     }
-
-    ;
-
     int vertices, edges;
-    Edge edge[];
+    Edge[] edge;
 
     // Graph creation
     Graph(int v, int e) {
@@ -34,13 +28,14 @@ class Graph {
             edge[i] = new Edge();
     }
 
-    int find(subset subsets[], int i) {
-        if (subsets[i].parent != i)
+    int find(subset[] subsets, int i) {
+        if (subsets[i].parent != i) {
             subsets[i].parent = find(subsets, subsets[i].parent);
+        }
         return subsets[i].parent;
     }
 
-    void Union(subset subsets[], int x, int y) {
+    void Union(subset[] subsets, int x, int y) {
         int xroot = find(subsets, x);
         int yroot = find(subsets, y);
 
@@ -56,7 +51,7 @@ class Graph {
 
     // Applying Krushkal Algorithm
     void KruskalAlgo() {
-        Edge result[] = new Edge[vertices];
+        Edge[] result = new Edge[vertices];
         int e = 0;
         int i = 0;
         for (i = 0; i < vertices; ++i)
@@ -64,7 +59,7 @@ class Graph {
 
         // Sorting the edges
         Arrays.sort(edge);
-        subset subsets[] = new subset[vertices];
+        subset[] subsets = new subset[vertices];
         for (i = 0; i < vertices; ++i)
             subsets[i] = new subset();
 
