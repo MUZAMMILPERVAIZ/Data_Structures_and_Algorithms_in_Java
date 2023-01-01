@@ -24,6 +24,7 @@ Types of Data Structures in Java<br>
 
 ==> Dijkstra Algorithm. <br>
 ==> Prims Algorithm. <br>
+==> Kruskal`s Algorithm. <br>
 
 ==> Searching Algorithms. <br>
 =====> Binary Search. <br>
