@@ -1,14 +1,135 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="CUSTOM_SCOPE_NAME" value="Unnamed" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="185b8e2e-e667-4644-a342-5164ace65470" name="Changes" comment="Commits new changes">
-      <change afterPath="$PROJECT_DIR$/src/SortingAlgorithms/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/BFS/bfs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/BFS/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/BFS/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/BinarySearchTrees/Main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/BinarySearchTrees/Tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/BinarySearchTrees/TreeNode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/BinarySearchTrees/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/BinarySearchTrees/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/Circular_DoublyLinkedList/CircularLinkedList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/Circular_DoublyLinkedList/Main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/Circular_DoublyLinkedList/NODE.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/Circular_DoublyLinkedList/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/Circular_DoublyLinkedList/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/DFS/dfs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/DFS/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/DFS/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/Dijkstra_Algo/Dijkstra.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/Dijkstra_Algo/GFG.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/Dijkstra_Algo/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/Dijkstra_Algo/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/HASHING/hashing.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/HASHING/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/HASHING/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/Heap/Main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/Heap/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/Heap/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/InfixToPostfix/infixToPostfix.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/InfixToPostfix/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/InfixToPostfix/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/Lab_Assignment_1/Arrays.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/Lab_Assignment_1/Fibonacci_series.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/Lab_Assignment_1/Loops.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/Lab_Assignment_1/Pyramid.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/Lab_Assignment_1/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/Lab_Assignment_1/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/LinkedLists/DoubleLinkedList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/LinkedLists/DoubleList_main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/LinkedLists/LinkedList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/LinkedLists/LinkedListIntro.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/LinkedLists/LinkedListLoop.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/LinkedLists/NODE.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/LinkedLists/SNode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/LinkedLists/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/LinkedLists/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/LinkedLists/printOddNumberFromLinkedlist.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/Main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/Priority_Queue/Queue.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/Priority_Queue/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/Priority_Queue/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/Queue_using_Arrays/Queue.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/Queue_using_Arrays/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/Queue_using_Arrays/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/Queue_using_LinkedList/Main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/Queue_using_LinkedList/Queue.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/Queue_using_LinkedList/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/Queue_using_LinkedList/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/SearchingAlgorithms/binaryAndLinearSearch.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/SearchingAlgorithms/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/SearchingAlgorithms/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/SortingAlgorithms/BubbleSort.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/SortingAlgorithms/HeapSort.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/SortingAlgorithms/InsertionSort.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/SortingAlgorithms/MergeSort.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/SortingAlgorithms/SelectionSort.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/SortingAlgorithms/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/SortingAlgorithms/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/Stack_using_Arrays/Stack.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/Stack_using_Arrays/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/Stack_using_Arrays/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/Stack_using_LinkedList/Stack_linkedList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/Stack_using_LinkedList/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/Stack_using_LinkedList/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/allclasses-index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/allpackages-index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/copy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/element-list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/help-doc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/index-files/index-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/index-files/index-10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/index-files/index-11.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/index-files/index-12.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/index-files/index-13.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/index-files/index-14.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/index-files/index-15.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/index-files/index-16.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/index-files/index-17.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/index-files/index-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/index-files/index-3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/index-files/index-4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/index-files/index-5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/index-files/index-6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/index-files/index-7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/index-files/index-8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/index-files/index-9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/jquery-ui.overrides.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/legal/ADDITIONAL_LICENSE_INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/legal/ASSEMBLY_EXCEPTION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/legal/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/legal/jquery.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/legal/jqueryUI.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/member-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/module-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/overview-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/overview-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/package-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/resources/glass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/resources/x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/script-dir/jquery-3.6.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/script-dir/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/script-dir/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/search-page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/tag-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/type-search-index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SearchingAlgorithms/binaryAndLinearSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SearchingAlgorithms/binaryAndLinearSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SortingAlgorithms/HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SortingAlgorithms/HeapSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +157,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="NamedScopeManager">
+    <scope name="Unnamed" pattern="src:*..*" />
+  </component>
   <component name="ProjectId" id="2EyefgRPnA7ZGUcW6wvzmKOJF5c" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -50,6 +174,7 @@
     "WebServerToolWindowFactoryState": "false",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "full.screen.before.presentation.mode": "false",
+    "jdk.selected.JAVA_MODULE": "17",
     "last_opened_file_path": "D:/IdeaProjects/Data Structures and Algorithms/src/BFS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -153,7 +278,7 @@
       <workItem from="1672038066531" duration="3665000" />
       <workItem from="1672151511235" duration="1886000" />
       <workItem from="1672547122773" duration="8395000" />
-      <workItem from="1672578031794" duration="8050000" />
+      <workItem from="1672578031794" duration="10225000" />
     </task>
     <task id="LOCAL-00001" summary="Programming fundamentals">
       <created>1664113981357</created>
@@ -309,7 +434,42 @@
       <option name="project" value="LOCAL" />
       <updated>1672587490086</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Commits new changes">
+      <created>1672589864482</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1672589864482</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Commits new changes">
+      <created>1672589880503</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1672589880503</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Commits new changes">
+      <created>1672589895986</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1672589895986</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Commits new changes">
+      <created>1672589910290</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1672589910290</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Commits new changes">
+      <created>1672589922771</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1672589922771</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
